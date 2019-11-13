@@ -1,5 +1,3 @@
-https://www.melhorhospedagemdesites.com/dicas-e-ferramentas/o-que-e-php/
-https://pplware.sapo.pt/software/sublime-text-e-este-o-melhor-editor-de-texto-do-mundo/
 
 db.enablePersistence()
     .catch(function(err) {
