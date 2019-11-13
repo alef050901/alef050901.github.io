@@ -8,7 +8,7 @@ db.enablePersistence()
         }
     });
 
-db.collection('sobremesas').onSnapshot(snapshot => {
+db.collection('comidas').onSnapshot(snapshot => {
     snapshot.docChanges().forEach(change => {
         if (change.type === 'added') {
             renderRecipe(change.doc.data(), change.doc.id);
