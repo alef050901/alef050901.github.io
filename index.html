@@ -104,16 +104,38 @@
         </div>
       </div>
   </div>
-    
-    
-    
-  
+   
   </div> <!--esse é o fim do row -->
 
 
 
       <!--JavaScript at end of body for optimized loading-->
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-firestore.js"></script>
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDrtWR4_LY56DM4wtQbIjDipnhteeOb8zI",
+    authDomain: "comidas-3540d.firebaseapp.com",
+    databaseURL: "https://comidas-3540d.firebaseio.com",
+    projectId: "comidas-3540d",
+    storageBucket: "comidas-3540d.appspot.com",
+    messagingSenderId: "50277599684",
+    appId: "1:50277599684:web:f6eab9ed77e1fe74b6fc91"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore();
+</script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-       <script type="text/javascript" src="js/ui.js"></script>
+        <script type="text/javascript" src="./js/app.js"></script>
+       <script type="text/javascript" src="./js/db.js"></script>
+       <script type="text/javascript" src=".js/ui.js"></script>
     </body>
   </html>
