@@ -36,5 +36,5 @@ const desenhaCard = (data, id) => {
    </div>`;
     comidas.innerHTML += html;
 
-};df
+};
   
